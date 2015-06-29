@@ -1,14 +1,16 @@
-#Feedreader Testing
+# Feedreader Testing
 Feedreader testing using Jasmine for Udacity Front-End developer ND
 
 ###How to start:
 - Download and install the latest version of python (https://www.python.org/downloads/)
-- Open cli and navigate to the game dir
+- Open cli and navigate to the website directory
 - Run the command: "python -m SimpleHTTPServer 8000" if you have python 2.x installed
 - Run the command: "python -m http.server 8000" if you have python 3.x installed
-- Go to http://localhost:8000 in your browser to start the game
+- Go to http://localhost:8000 in start the website in your browser
 
 # Tests in this project
+
+The test results are seen at the bottom of the page and are marked in green once they pass. The spec performs the following tests.
 
 1. A test that loops through each feed in the allFeeds object and ensures it has a URL defined and that the URL is not empty.
 2. A test that loops through each feed in the allFeeds object and ensures it has a name defined and that the name is not empty.
